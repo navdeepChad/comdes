@@ -1,0 +1,8 @@
+   List<Integer> arx = new ArrayList<>();
+  Map<Integer, Integer> mp = new HashMap<>();
+            for (int i = 0; i < vn; i++)
+            {
+                int aa = sc.nextInt();
+                arr.add(aa);
+                mp.put(aa, mp.getOrDefault(aa, 0) + 1);
+            }
