@@ -1,0 +1,5 @@
+for (Map.Entry<Integer, Integer> e : mp.entrySet())
+            {
+                int val = e.getValue();
+            
+            }
